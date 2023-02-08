@@ -19,4 +19,11 @@ var boolArray = [true, false, true, false]
     console.log(boolArray.shift())
 
 
-
+// Index positions are in order from left to right, starting with the first
+// position as the "0" position. Each of my arrays have positions 0 through 3,
+// with 4 elements in each array.
+// Calling an array method and then logging an array sometimes results
+// in different logs that logging the method itself.
+// For instance, calling `numArray.pop()` and then 
+// `console.log(numArray)` will result in [1, 2, 3], while logging
+// the call itself would result in [4].
